@@ -1,29 +1,10 @@
 import React from 'react';
-import "../css/Home.css"
+import "../css/Home.css";
 class Home extends React.Component {
   render () {
   return (
     <div  className="home">
-    <nav className="navbar is-black">
-      <div className="container">
-        <div className="navbar-brand">
-          <a className="navbar-item" href="/">Stranger friends</a>
-          <span class="navbar-burger burger" data-target="navMenu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-        </div>
-        <div id="navbar-end" className="navbar-menu">
-          <div className="navbar-item">
-            <a href="/" className="navbar-item">Home</a>
-            <a href="" className="navbar-item">Chat</a>
-            <a href="" className="navbar-item">Servey</a>
-            <a href="" className="navbar-item">Profiles</a>
-        </div>
-      </div>
-      </div>
-    </nav>
+
     <div class="block">
       <article class="message">
         <div className="message-body">
