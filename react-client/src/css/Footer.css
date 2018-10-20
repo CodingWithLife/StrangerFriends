@@ -1,0 +1,36 @@
+.footer{
+  background-color: black;
+  color: White;
+}
+
+p{
+  font-weight: bold;
+}
+.holacode{
+  top:50%;
+}
+
+.toledo{
+  position: relative;
+  left:40%;
+  bottom:67px;
+}
+
+.address{
+  position: relative;
+  left: 40.2%;
+  bottom: 75px;
+
+}
+
+.code{
+  position: relative;
+  left: 75%;
+  bottom: 140px;
+}
+
+.students{
+  position: relative;
+  left: 75%;
+  bottom: 140px;
+}

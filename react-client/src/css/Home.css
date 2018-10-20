@@ -1,0 +1,10 @@
+body{
+  background-image: url("https://avatars.mds.yandex.net/get-pdb/49816/de4fab39-e5ff-4076-913d-875991cd1ac1/orig");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.message-body{
+  color: White;
+  font-weight: bold;
+}
