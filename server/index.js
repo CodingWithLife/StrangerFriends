@@ -8,9 +8,6 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
-app.get('/',(req, res) =>{
-  res.send("Hello");
-});
 
 // UNCOMMENT FOR REACT
  app.use(express.static(__dirname + '/../react-client/dist'));
