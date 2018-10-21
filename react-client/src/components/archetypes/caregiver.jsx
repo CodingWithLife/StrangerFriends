@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-class Outlaw extends React.Component {
+class Caregiver extends React.Component {
     render () {
     return (
       <div>
@@ -16,4 +16,4 @@ class Outlaw extends React.Component {
   }
 }
 
-export default Outlaw;
+export default Caregiver;
