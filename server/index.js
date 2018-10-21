@@ -2,6 +2,14 @@ const dotenv = require('dotenv');
 dotenv.config();
 var express = require('express');
 var bodyParser = require('body-parser');
+var app = require('http').createServer();
+var io = module.exports.io = require('socket.io')(app);
+
+const SocketManager = require('./SocketManager')
+
+io.on('connection', SocketManager)
+
+
 // UNCOMMENT THE DATABASE YOU'D LIKE TO USE
 // var items = require('../database-mysql');
 // var items = require('../database-mongo');
