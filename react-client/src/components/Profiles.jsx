@@ -53,11 +53,7 @@ class Profiles extends React.Component {
           <Link to="/explorer"><img src="https://www.culturetalk.com/wp-content/uploads/2015/07/explorer-icon-400x400.png" /></Link>
           </div>
       </div>
-      <br/>
-      <br/>
-      <br/>
-
-  	</div>
+    </div>
     )
   }
 }
