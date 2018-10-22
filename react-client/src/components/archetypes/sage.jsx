@@ -5,7 +5,7 @@ import React from 'react';
 class Sage extends React.Component {
     render () {
       return (
-        <div className='profiles'>
+        <div className='sage'>
           <h1>The SAGE is always seeking the truth
 
             To a sage, wisdom is the key to success.
