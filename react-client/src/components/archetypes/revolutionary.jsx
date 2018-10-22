@@ -12,33 +12,7 @@ class Revolutionary extends React.Component {
       archetypes folder and assigned it in the
        index.jsx as the component to its
        correspondent route</h1>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
+    
       </div>)
   }
 }
