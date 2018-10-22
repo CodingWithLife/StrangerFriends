@@ -4,16 +4,18 @@ import React from 'react';
 
 class Ruler extends React.Component {
     render () {
-    return (
-      <div>
-      <h1>This is outlaw archety...
-      if you want another one ..
-      you have to create a file inside the
-      archetypes folder and assigned it in the
-       index.jsx as the component to its
-       correspondent route</h1>
-      </div>)
-  }
+      return (
+        <div className='ruler'>
+          <h1>The RULER wants absolute power
+
+            Luxury and exclusivity – A ruler brand is a gatekeeper.
+            Perception as high-quality and expensive is critical,
+            so product categories that fall under this umbrella include jewelry and high-end vehicles.
+
+            Do you buy a Mercedes-Benz because of its crash-test rating?
+            No. That quietly understood value is what a ruler brand sells.</h1>
+        </div>)
+      }
 }
 
 export default Ruler;
