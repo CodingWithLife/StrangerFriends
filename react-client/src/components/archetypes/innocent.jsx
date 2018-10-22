@@ -6,12 +6,10 @@ class Innocent extends React.Component {
     render () {
     return (
       <div>
-      <h1>This is outlaw archety...
-      if you want another one ..
-      you have to create a file inside the
-      archetypes folder and assigned it in the
-       index.jsx as the component to its
-       correspondent route</h1>
+      <h1><br>The INNOCENT just wants to be happy</br>
+Everything is free, virtuous and content in an innocent’s world.
+ An innocent brand will never guilt you try to convince you excessively.
+  Instead, an innocent brand will charm you with something more powerful: Nostalgia.</h1>
       </div>)
   }
 }

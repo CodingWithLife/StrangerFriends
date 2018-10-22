@@ -4,16 +4,19 @@ import React from 'react';
 
 class Magician extends React.Component {
     render () {
-    return (
-      <div>
-      <h1>This is outlaw archety...
-      if you want another one ..
-      you have to create a file inside the
-      archetypes folder and assigned it in the
-       index.jsx as the component to its
-       correspondent route</h1>
-      </div>)
-  }
+      return (
+        <div>
+          <h1>The MAGICIAN makes dreams come true
+            Magician brands don’t build you a better toothbrush or
+            help you keep your house clean; they bring your wildest
+            dreams to life. Disney is an example of a magical brand.
+            Though it is fundamentally a media company, the company
+            offers a transformative experience. The organization sits
+            in a category of its own because of its vision. Imagine another
+            brand that could build the Magic Kingdom or a Disney World.
+          </h1>
+        </div>)
+    }
 }
 
 export default Magician;

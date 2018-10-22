@@ -4,16 +4,16 @@ import React from 'react';
 
 class Sage extends React.Component {
     render () {
-    return (
-      <div>
-      <h1>This is outlaw archety...
-      if you want another one ..
-      you have to create a file inside the
-      archetypes folder and assigned it in the
-       index.jsx as the component to its
-       correspondent route</h1>
-      </div>)
-  }
+      return (
+        <div className='profilesText'>
+          <h1><bold>The SAGE is always seeking the truth</bold>
+            To a sage, wisdom is the key to success.
+            Everything else is secondary to the pursuit of knowledge.
+            Though this brand might give you the warm and fuzzies,
+            and they don’t enrapture you in a fantasy world like Disney,
+            a sage commands respect by illustrating brilliance.</h1>
+        </div>)
+      }
 }
 
 export default Sage;
