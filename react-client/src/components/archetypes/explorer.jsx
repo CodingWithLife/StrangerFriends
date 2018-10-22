@@ -13,7 +13,8 @@ class Explorer extends React.Component {
             Subaru is the classic fit for this archetype.
             The company doesn’t sell cars based on luxury or comfort – instead,
             freedom is the focus. Blizzard? No problem. Subaru lets you decide where you’re going,
-            no matter the circumstance –You’re free.</h1>
+            no matter the circumstance –You’re free.\
+            </h1>
         </div>)
       }
 }
