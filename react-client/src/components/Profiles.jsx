@@ -1,6 +1,5 @@
 import React from 'react';
-import '../css/Header.css'
-import '../css/Profiles.css'
+import "../css/Header.css"
 import {Link} from 'react-router-dom';
 
 
