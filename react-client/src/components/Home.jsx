@@ -9,11 +9,11 @@ class Home extends React.Component {
       <article class="message">
         <div className="message-body">
         Without Judgement There aren’t good or bad Archetypes,but
-        each has a strength and shadow side.Relatable We recognize
+        each has a strength and shadow side. Relatable We recognize
         ourselves and others in these characters.Fluid Our top
         Archetypes may fluctuate depending on situations we find
         ourselves in.Adaptable Once we are aware of our ‘natural’
-        reactions, we can choose differently.Memorable Individuals,
+        reactions, we can choose differently. Memorable Individuals,
         leaders and team now have an easy reference point for
         acknowledging behavior and discussing change.Meaningful
         Understanding the different motives of the Archetypes often
@@ -22,12 +22,11 @@ class Home extends React.Component {
         </div>
       </article>
     </div>
-    <div className="leftside">
+    <div className="leftSideBar">
     <ul>
-        <a href="https://www.twitter.com/"><li><i className="fab fa-twitter-square"></i></li></a>
-        <a href="https://www.facebook.com/"><li><i className="fab fa-facebook-square"></i></li></a>
-        <a href="https://www.linkedin.com/feed/"><li><i className="fab fa-linkedin"></i></li></a>
-        <a href="https://www.instagram.com/"><li><i className="fab fa-instagram"></i></li></a>
+        <a href="https://twitter.com/CWithlife"><li><i className="fab fa-twitter-square"></i></li></a>
+        <a href="https://www.facebook.com/coding.withlife.9"><li><i className="fab fa-facebook-square"></i></li></a>
+        <a href="https://www.instagram.com/codingwithlife/"><li><i className="fab fa-instagram"></i></li></a>
     </ul>
   </div>
     <br/>
