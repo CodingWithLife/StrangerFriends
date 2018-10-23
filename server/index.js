@@ -38,7 +38,7 @@ app.get('/users', function (req, res) {
   });
 });
 
-app.get('/chats', function (req, res) {
+app.get('/qChat', function (req, res) {
   items.chatRoom(function(err, data) {
     if(err) {
       res.sendStatus(500);
@@ -46,6 +46,24 @@ app.get('/chats', function (req, res) {
       res.json(data);
     }
   });
+});
+
+app.post('/pChat', function(req, res){
+
+ let description = req.body.description;
+ let description2 = req.body.description2;
+
+ if(!description) {
+   res.sendStatus(400);
+ } else {
+   database.insertChat(description,description2,(err, results) => {
+     if (err) {
+       res.sendStatus(500);
+     } else {
+       res.status(200).json(results);
+     }
+   });
+ }
 });
 
 app.listen(3000, function() {

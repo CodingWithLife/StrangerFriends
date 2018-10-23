@@ -27,5 +27,17 @@ var chatRoom = function(callback) {
   });
 };
 
+var insertChat = function(description,description2, cb) {
+ connection.query('INSERT INTO chatRoom (description, description2) VALUES (?, ?)',
+   [description, description2], (err, results, fields) => {
+     if(err) {
+       cb(err, null);
+     } else {
+       cb(null, results);
+     }
+   });
+};
+
+module.exports.insertChat = insertChat;
 module.exports.selectAll = selectAll;
 module.exports.chatRoom = chatRoom;

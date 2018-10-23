@@ -11,18 +11,19 @@ CREATE TABLE IF NOT EXISTS users (
   PRIMARY KEY (id)
 );
 
-CREATE TABLE chatRoom (
-  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  Messages text
-
+CREATE TABLE chatRoom(
+ id int NOT NULL AUTO_INCREMENT,
+ description text(100) NOT NULL,
+ description2 text(600) NOT NULL,
+ PRIMARY KEY (ID)
 );
 
 INSERT INTO users (email, password) VALUES ('pancho@gmail.com', 'rancho');
 INSERT INTO users (email, password) VALUES ('jack@gmail.com', 'pirate');
 
-INSERT INTO chatRoom (Messages) VALUES ('Hello , from the Underground');
-INSERT INTO chatRoom (Messages) VALUES ('who are you?');
-INSERT INTO chatRoom (Messages) VALUES ('I am that of what dreams are felt');
+INSERT INTO chatRoom (description, description2) VALUES ('jester','Hello , from the Underground');
+INSERT INTO chatRoom (description, description2) VALUES ('lover','who are you?');
+INSERT INTO chatRoom (description, description2) VALUES ('jester','I am that of what dreams are felt');
 
 
 
