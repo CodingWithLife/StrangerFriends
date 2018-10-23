@@ -17,4 +17,15 @@ var selectAll = function(callback) {
   });
 };
 
+var chatRoom = function(callback) {
+  connection.query('SELECT * FROM chatRoom', function(err, results, fields) {
+    if(err) {
+      callback(err, null);
+    } else {
+      callback(null, results);
+    }
+  });
+};
+
 module.exports.selectAll = selectAll;
+module.exports.chatRoom = chatRoom;

@@ -20,6 +20,12 @@ CREATE TABLE chatRoom (
 INSERT INTO users (email, password) VALUES ('pancho@gmail.com', 'rancho');
 INSERT INTO users (email, password) VALUES ('jack@gmail.com', 'pirate');
 
+INSERT INTO chatRoom (Messages) VALUES ('Hello , from the Underground');
+INSERT INTO chatRoom (Messages) VALUES ('who are you?');
+INSERT INTO chatRoom (Messages) VALUES ('I am that of what dreams are felt');
+
+
+
 /*  Execute this file from the command line by typing:
  *    mysql -u root < server/schema.sql
  *  to create the database and the tables.*/
