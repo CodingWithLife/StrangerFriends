@@ -48,8 +48,6 @@ class Home extends React.Component {
   <p>
     <strong id="Hola" className="title is-2">Holacode</strong><br/>
     <strong className="Rights">Thesis Project © 2018</strong>
-    <strong className="Rights">Thesis Project © 2018</strong>
-
   </p>
 </div>
 </footer>
