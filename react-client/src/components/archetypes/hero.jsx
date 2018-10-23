@@ -7,16 +7,13 @@ class Hero extends React.Component {
       return (
         <div className='hero'>
             <h1>
-          The hero makes the world better by being the best.
-          A hero brand isn’t concerned with nurturing, it’s there to challenge you.
-          If you want to rise to the occasion, you’re going to need a hero’s help.
+              The Hero
+              The hero thrives on being strong and standing up for others. They may feel they have a destiny that they must accomplish. Heroes are courageous in their quest for justice and equality and will stand up to even the most powerful forces if they think they are wrong.
 
-          The U.S. Army is the ultimate example of a hero archetype.
-          Think of the recruitment commercials you’ve seen with troops jumping out of helicopters,
-          running through training courses and protecting the country.
-          Does any of that resemble your day-to-day? Of course not.
-          It’s not supposed to.
-          It’s designed to compel you to “answer the call.”
+              Goal: to help others and protect the weak
+              Fear: being perceived as weak or frightened
+              Weakness: arrogance, always needing another battle to fight
+              Talent: competence and courage
             </h1>
       </div>)
   }
