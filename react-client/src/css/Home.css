@@ -17,3 +17,14 @@ body{
   top: 200px;
   font-size: 40px;
 }
+
+#Hola{
+  position: relative;
+  bottom: 35px;
+}
+
+.Rights{
+  position: relative;
+  bottom: 20px;
+  font-weight: bold;
+}
