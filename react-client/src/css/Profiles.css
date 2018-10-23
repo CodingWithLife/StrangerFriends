@@ -1,11 +1,117 @@
-.sage{
-  color: pink;
+.caregiver{
+  text-align: center;
+  color: White;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: verdana
 }
 
-.magician{
-  color: white;
+
+
+.creator{
+  text-align: center;
+  color: White;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: verdana
 }
+
+
+
+.everyperson{
+  text-align: center;
+  color: White;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: verdana
+}
+
+
+
+.explorer{
+  text-align: center;
+  color: White;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: verdana
+}
+
+
+
+.hero{
+  text-align: center;
+  color: White;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: verdana
+}
+
+
+
+.innocent{
+  text-align: center;
+  color: White;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: verdana
+}
+
+
 
 .jester{
-  color: blue;
+  text-align: center;
+  color: White;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: verdana
+}
+
+
+
+.lover{
+  text-align: center;
+  color: White;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: verdana
+}
+
+
+
+.magician{
+  text-align: center;
+  color: White;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: verdana
+}
+
+
+
+.revolutionary{
+  text-align: center;
+  color: White;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: verdana
+}
+
+
+
+.ruler{
+  text-align: center;
+  color: White;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: verdana
+}
+
+
+
+.sage{
+  text-align: center;
+  color: White;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: verdana
 }
