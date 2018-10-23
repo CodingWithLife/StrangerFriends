@@ -1,5 +1,19 @@
 .radios{
   position: relative;
+<<<<<<< HEAD
   left: 0%;
   color: white;
+=======
+  left: auto;
+  color: white;
+}
+
+.submitButton{
+  color: green;
+}
+
+.question{
+  font-weight: bold;
+  color: green;
+>>>>>>> c08234dc7a0089e8e5880f3894c7f2cc8a3fd3f2
 }
