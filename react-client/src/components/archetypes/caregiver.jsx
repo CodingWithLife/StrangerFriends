@@ -4,16 +4,16 @@ import React from 'react';
 
 class Caregiver extends React.Component {
     render () {
-    return (
-      <div>
-      <h1>This is outlaw archety...
-      if you want another one ..
-      you have to create a file inside the
-      archetypes folder and assigned it in the
-       index.jsx as the component to its
-       correspondent route</h1>
-      </div>)
-  }
-}
+      return (
+        <div className='caregiver'>
+        <h1>The CAREGIVER nurtures you
+          The caregiver is benevolent and just wants to be there for you.
+          Caregiver brands build trust.
+          It’s rare to see a caregiver brand run an ad that takes a shot at their competition.
+          They are the opposite of confrontational.
+        </h1>
+        </div>)
+       }
+      }
 
 export default Caregiver;
