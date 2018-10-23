@@ -6,25 +6,29 @@ body{
 
 .message-body{
   color: White;
-  font-size: 20px;
   font-weight: bold;
   font-family: verdana
 
 }
 
+.logo{
+  position: relative;
+  bottom: 200px;
+}
+
 .leftSideBar{
   position: relative;
-  top: 200px;
+  top: 70px;
   font-size: 40px;
 }
 
 #Hola{
   position: relative;
-  bottom: 35px;
+  bottom: 150px
 }
 
 .Rights{
   position: relative;
-  bottom: 20px;
+  bottom: 130px;
   font-weight: bold;
 }
