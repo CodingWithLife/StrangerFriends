@@ -690,6 +690,10 @@ class Survey extends React.Component {
           </li>
         </div>
 
+        <div>
+          <button class="w3-button w3-light-grey w3-hover-black w3-round w3-display-middle">Submit Answers</button>
+        </div>
+
 
 
       </div>

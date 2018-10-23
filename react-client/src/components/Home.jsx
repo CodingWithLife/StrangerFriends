@@ -22,15 +22,12 @@ class Home extends React.Component {
         </div>
       </article>
     </div>
-<<<<<<< HEAD
     <div className="leftSideBar">
-=======
-    <div className="leftside">
->>>>>>> c08234dc7a0089e8e5880f3894c7f2cc8a3fd3f2
     <ul>
         <a href="https://twitter.com/CWithlife"><li><i className="fab fa-twitter-square"></i></li></a>
         <a href="https://www.facebook.com/coding.withlife.9"><li><i className="fab fa-facebook-square"></i></li></a>
         <a href="https://www.instagram.com/codingwithlife/"><li><i className="fab fa-instagram"></i></li></a>
+        <a href="mailto:codingwithlife@gmail.com?Subject=Hello%20again"target="_top">Contac Us</a>
     </ul>
   </div>
     <br/>
