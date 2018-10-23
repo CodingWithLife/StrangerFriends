@@ -1,10 +1,20 @@
+
+
 .caregiver{
+  background-image: url("http://getwallpapers.com/wallpaper/full/8/c/c/29000.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   text-align: center;
   color: White;
-  font-size: 25px;
-  font-weight: bold;
-  font-family:
+  font-size: 20px;
+  font-family: verdana
+}
+.title1{
+  font-size: 55px;
+}
+.bold1{
+  color: white;
 }
 
 
