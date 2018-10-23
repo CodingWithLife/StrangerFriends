@@ -22,14 +22,19 @@ class Home extends React.Component {
         </div>
       </article>
     </div>
+    <div className="leftside">
+    <ul>
+        <a href="https://www.twitter.com/"><li><i className="fab fa-twitter-square"></i></li></a>
+        <a href="https://www.facebook.com/"><li><i className="fab fa-facebook-square"></i></li></a>
+        <a href="https://www.linkedin.com/feed/"><li><i className="fab fa-linkedin"></i></li></a>
+        <a href="https://www.instagram.com/"><li><i className="fab fa-instagram"></i></li></a>
+    </ul>
+  </div>
     <br/>
     <br/>
     <br/>
     <center><img src="https://saraletourneau.files.wordpress.com/2016/11/arch-group_tworows.png?w=550&h=235"/></center>
-    <br/>
-    <br/>
-    <br/>
-  
+
 
 
 
