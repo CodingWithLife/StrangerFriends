@@ -6,11 +6,8 @@ var app = require('http').createServer();
 var io = module.exports.io = require('socket.io')(app);
 var database = require('../database-mysql/index.js');
 
-
 const SocketManager = require('./SocketManager')
-
 io.on('connection', SocketManager)
-
 
 // UNCOMMENT THE DATABASE YOU'D LIKE TO USE
 var items = require('../database-mysql');
@@ -18,6 +15,7 @@ var items = require('../database-mysql');
 
 var app = express();
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
 
 
 // UNCOMMENT FOR REACT
@@ -26,8 +24,11 @@ app.use(bodyParser.json());
 // UNCOMMENT FOR ANGULAR
 // app.use(express.static(__dirname + '/../angular-client'));
 // app.use(express.static(__dirname + '/../node_modules'));
+app.get('/', function (req, res) {
+  console.log("You are in root")
+});
 
-app.get('/items', function (req, res) {
+app.get('/users', function (req, res) {
   items.selectAll(function(err, data) {
     if(err) {
       res.sendStatus(500);
