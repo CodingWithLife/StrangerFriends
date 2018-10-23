@@ -7,4 +7,28 @@ body{
 .message-body{
   color: White;
   font-weight: bold;
+  font-family: verdana
+
+}
+
+.logo{
+  position: relative;
+  bottom: 200px;
+}
+
+.leftSideBar{
+  position: relative;
+  top: 70px;
+  font-size: 40px;
+}
+
+#Hola{
+  position: relative;
+  bottom: 150px
+}
+
+.Rights{
+  position: relative;
+  bottom: 130px;
+  font-weight: bold;
 }
