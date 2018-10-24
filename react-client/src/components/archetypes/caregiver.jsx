@@ -12,7 +12,8 @@ class Caregiver extends React.Component {
           It’s rare to see a caregiver brand run an ad that takes a shot at their competition.
           They are the opposite of confrontational.
         </h1>
-        </div>)
+        
+          </div>)
        }
       }
 
