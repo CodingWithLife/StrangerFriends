@@ -17,7 +17,7 @@ class Jester extends React.Component {
 <ul>Weakness: frivolity, wasting time and hiding emotions beneath a humorous disguise</ul>
 <ul>Talent: seeing the funny side of everything and using humor for positive chan</ul>
 </p>
-        </div>)
+    </div>)
   }
 }
 

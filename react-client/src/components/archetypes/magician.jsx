@@ -7,13 +7,17 @@ class Magician extends React.Component {
     render () {
       return (
         <div className='magician'>
-          <h1>The MAGICIAN makes dreams come true
+          <h3> The Magician</h3>
 
-            Magician brands don’t build you a better toothbrush or help you keep your house clean;
-            they bring your wildest dreams to life. Disney is an example of a magical brand.
-            Though it is fundamentally a media company, the company offers a transformative experience.
-            The organization sits in a category of its own because of its vision.
-            Imagine another brand that could build the Magic Kingdom or a Disney World.</h1>
+          <p>  The magician is often very charismatic.
+          They have a true belief in their ideas and desire to share them with others.
+          They are often able to see things in a completely different way to other personality types and can use these perceptions to bring transformative ideas and philosophies to the world.
+
+          <ul>Goal: to understand the fundamental laws of the universe</ul>
+          <ul>Fear: unintended negative consequences</ul>
+          <ul>Weakness: becoming manipulative or egotistical</ul>
+          <ul>Talent: transforming people’s everyday experience of life by offering new ways of looking at things</ul>
+          </p>
         </div>)
       }
 }

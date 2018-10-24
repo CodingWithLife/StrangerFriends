@@ -5,18 +5,18 @@ import React from 'react';
 class Sage extends React.Component {
     render () {
       return (
-        <div className='profiles'>
-          <h1>The SAGE is always seeking the truth
+        <div className='sage'>
+          <h3>The Sage</h3>
+          <p>The sage values ideas above all else.
+          However, they can sometimes become frustrated at not being able to know everything about the world.
+          Sages are good listeners and often have the ability to make complicated ideas easy for others to understand.
+          They can often be found in teaching roles.
 
-            To a sage, wisdom is the key to success.
-            Everything else is secondary to the pursuit of knowledge.
-            Though this brand might give you the warm and fuzzies,
-            and they don’t enrapture you in a fantasy world like Disney,
-            a sage commands respect by illustrating brilliance.
-
-            Harvard University is a sage.
-            The academic environment is one of the most revered in the world,
-            boasting an alumni list that includes eight U.S. presidents, 21 Nobel laureates and Mark Zuckerberg (sort of).</h1>
+          <ul>Goal: to use wisdom and intelligence to understand the world and teach others</ul>
+          <ul>Fear: being ignorant, or being perceived as stupid</ul>
+          <ul>Weakness: can be unable to make a decision as never believe they have enough information</ul>
+          <ul>Talent: wisdom, intelligence and curiosity</ul>
+          </p>
         </div>)
       }
 }
