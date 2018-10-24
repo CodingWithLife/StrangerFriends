@@ -2,17 +2,22 @@ import React from 'react';
 
 
 
+
 class Jester extends React.Component {
     render () {
       return (
         <div className='jester'>
-          <h1>The JESTER lives in the moment
-          Humor, silliness, and nonsense are all in a jester’s toolkit.
-          The goal of a jester brand is to make you smile with light-hearted fun.
-          The Old Spice Man is an all-time favorite ad campaign and the perfect example of a jester archetype.
-          Some male consumers react well to hyper-masculine branding, while others don’t.
-          By making a joke out of these super manly brands, Old Spice appeal to both sides.</h1>
-        </div>)
+          <h3>The Jester </h3>
+  <p>The jester loves to liven up a party with humor and tricks, however, they have a deep soul.
+ They want to make others happy and can often use humor to change people’s perceptions.
+  Sometimes, however, the jester uses humor to cover his or her own pain.
+
+<ul>Goal:to lighten up the world and make others laugh</ul>
+<ul>Fear: being perceived as boring by others.</ul>
+<ul>Weakness: frivolity, wasting time and hiding emotions beneath a humorous disguise</ul>
+<ul>Talent: seeing the funny side of everything and using humor for positive chan</ul>
+</p>
+    </div>)
   }
 }
 
