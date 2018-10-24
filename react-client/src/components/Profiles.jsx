@@ -12,12 +12,15 @@ class Profiles extends React.Component {
  }
     render () {
     return (
+      <div className='prof'>
 
     <div>
     <br/>
     <br/>
     <br/>
     <br/>
+    <br/>
+
 
       <div className="columns">
         <div className="column">
@@ -60,6 +63,7 @@ class Profiles extends React.Component {
           </div>
       </div>
     </div>
+  </div>
     )
   }
 }

@@ -34,6 +34,6 @@ class Caregiver extends React.Component {
           <br/>
         </div>)
        }
-      }
+  }
 
 export default Caregiver;
