@@ -6,11 +6,17 @@ class Everyperson extends React.Component {
     render () {
       return (
         <div className='the everyperson'>
-        <h1>The Everyperson.
-          Morality, virtue, and equality are important–and when you are an Everyperson, perhaps they are appreciated more than anything else.
-          Among the twelve archetypes, there are none more “centered” than he.
-          The Everyperson is not just centered in heart and spirituality and education, but also in the “wheel” of archetypes.
-          The Everyperson can easily turn into any of the other Soul or Self types.</h1>
+          <h3>The Everyperson</h3>
+          <p>The Everyperson sometimes referred to as The Orphan
+          archetype represents those who are dependable, down to earth realists.
+          Some people might describe them as a little negative at times.
+          The orphan is always searching for belonging in the world and may join many groups and communities to find a place where they fit in.
+
+          <ul>Goal: to belong</ul>
+          <ul>Fear: to be left out or to stand out from the crowd</ul>
+          <ul>Weakness: can be a little too cynical</ul>
+          <ul>Talent: honest and open, pragmatic and realistic</ul>
+          </p>
         </div>)
       }
 }
