@@ -1,11 +1,15 @@
 import React from 'react';
 import "../css/Header.css"
 import "../css/Profiles.css";
-
+import $ from "jquery";
 import {Link} from 'react-router-dom';
 
 
 class Profiles extends React.Component {
+  constructor(props) {
+   super(props);
+
+ }
     render () {
     return (
 

@@ -1,7 +1,10 @@
 import React from 'react';
 import "../css/Home.css";
-
+import { Link } from 'react-router-dom'
 class Home extends React.Component {
+  handleEvent(){
+     alert("Oye puedes ver tu slack, te amo Jessy u.u");
+   };
   render () {
   return (
     <div  className="home">
@@ -49,6 +52,9 @@ class Home extends React.Component {
     <strong id="Hola" className="title is-2">Holacode</strong><br/>
     <strong className="Rights">Thesis Project © 2018</strong>
   </p>
+</div>
+<div>
+        <button href="/" onClick={this.handleEvent}>Home</button>
 </div>
 </footer>
     </div>)
