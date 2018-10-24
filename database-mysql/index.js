@@ -38,6 +38,18 @@ var insertChat = function(description,description2, cb) {
    });
 };
 
+var insertUser = function(email, password, cb) {
+ connection.query('INSERT INTO users (email, password) VALUES (?, ?)',
+   [email, password], (err, results, fields) => {
+     if(err) {
+       cb(err, null);
+     } else {
+       cb(null, results);
+     }
+   });
+};
+
+module.exports.insertUser = insertUser;
 module.exports.insertChat = insertChat;
 module.exports.selectAll = selectAll;
 module.exports.chatRoom = chatRoom;

@@ -28,7 +28,7 @@ app.get('/', function (req, res) {
   console.log("You are in root")
 });
 
-app.get('/users', function (req, res) {
+app.get('/qUsers', function (req, res) {
   items.selectAll(function(err, data) {
     if(err) {
       res.sendStatus(500);
@@ -36,6 +36,22 @@ app.get('/users', function (req, res) {
       res.json(data);
     }
   });
+});
+
+app.post('/pUsers', function (req, res) {
+  let email = req.body.email;
+   let password = req.body.password;
+   if(!email) {
+     res.sendStatus(400);
+   } else {
+     database.insertUser(email, password, (err, results) => {
+       if (err) {
+         res.sendStatus(500);
+       } else {
+         res.status(200).json(results);
+       }
+     });
+   }
 });
 
 app.get('/qChat', function (req, res) {
@@ -49,10 +65,8 @@ app.get('/qChat', function (req, res) {
 });
 
 app.post('/pChat', function(req, res){
-
  let description = req.body.description;
  let description2 = req.body.description2;
-
  if(!description) {
    res.sendStatus(400);
  } else {

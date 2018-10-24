@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery'
 import {BrowserRouter, Route, Switch} from "react-router-dom";
+import Signin from './components/Signin.js';
 import Home from './components/Home.jsx';
 import Chat from './components/Chat.jsx';
 import Survey from './components/Survey.jsx';
