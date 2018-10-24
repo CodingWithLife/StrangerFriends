@@ -1,4 +1,4 @@
-const mongo = require('mongodb').MongoClient;
+//const mongo = require('mongodb').MongoClient;
 const client = require('socket.io').listen(3001).sockets;
 const dotenv = require('dotenv');
 dotenv.config();
@@ -8,29 +8,29 @@ var bodyParser = require('body-parser');
 // var items = require('../database-mysql');
 // var items = require('../database-mongo');
 
-mongo.connect('mongodb://127.0.0.1/mongochat',function(err, db){
-    if(err){
-      throw err;
-    }
-
-    console.log('MongoDB connected....');
-
-
-    client.on('connection',function(){
-      let chat = db.collection('chats');
-
-
-
-      sendStatus = function(s){
-        socket.emit('status',s);
-        }
-
-
-      //chat.find().limit(100).sort({_id:1}).toArray(function());
-
-
-    });
-});
+// mongo.connect('mongodb://127.0.0.1/mongochat',function(err, db){
+//     if(err){
+//       throw err;
+//     }
+//
+//     console.log('MongoDB connected....');
+//
+//
+//     client.on('connection',function(){
+//       let chat = db.collection('chats');
+//
+//
+//
+//       sendStatus = function(s){
+//         socket.emit('status',s);
+//         }
+//
+//
+//       //chat.find().limit(100).sort({_id:1}).toArray(function());
+//
+//
+//     });
+// });
 
 
 
