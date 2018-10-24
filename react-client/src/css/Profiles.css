@@ -1,3 +1,10 @@
+.title1{
+  font-size: 55px;
+}
+
+.bold1{
+  color: white;
+}
 
 
 .caregiver{
@@ -10,119 +17,133 @@
   font-size: 20px;
   font-family: verdana
 }
-.title1{
-  font-size: 55px;
-}
-.bold1{
-  color: white;
-}
-
 
 
 .creator{
+  background-image: url("https://www.photohdx.com/images/2017/05/dark-purple-abstract-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   text-align: center;
   color: White;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 20px;
   font-family: verdana
 }
 
 
 
 .everyperson{
+  background-image: url("http://4everstatic.com/bilderse/abstrakt/orange-bakgrund-189480.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   text-align: center;
   color: White;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 20px;
   font-family: verdana
 }
 
 
 
 .explorer{
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   text-align: center;
   color: White;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 20px;
   font-family: verdana
 }
 
 
 
 .hero{
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   text-align: center;
   color: White;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 20px;
   font-family: verdana
 }
 
 
-
 .innocent{
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   text-align: center;
   color: White;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 20px;
   font-family: verdana
 }
 
 
 
 .jester{
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   text-align: center;
   color: White;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 20px;
   font-family: verdana
 }
 
 
-
 .lover{
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   text-align: center;
   color: White;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 20px;
   font-family: verdana
 }
 
 
 
 .magician{
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   text-align: center;
   color: White;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 20px;
   font-family: verdana
 }
 
 
-
 .revolutionary{
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   text-align: center;
   color: White;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 20px;
   font-family: verdana
 }
 
 
 
 .ruler{
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   text-align: center;
   color: White;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 20px;
   font-family: verdana
 }
 
 
 
 .sage{
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   text-align: center;
   color: White;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 20px;
   font-family: verdana
 }
