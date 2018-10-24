@@ -5,9 +5,11 @@ body{
 }
 
 .message-body{
+  text-align: center;
+  font-size: 80px;
   color: White;
   font-weight: bold;
-  font-family: verdana
+  font-family: "Comic Sans MS", cursive, sans-serif;
 
 }
 
