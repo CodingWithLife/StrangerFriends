@@ -1,5 +1,5 @@
 import React from 'react';
-
+//arrow not working wont pass 
 const Message = ({chat, user}) => (
     <li className={`chat ${user === chat.username ? "right" : "left"}`}>
         {user !== chat.username
