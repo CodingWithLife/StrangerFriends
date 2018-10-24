@@ -8,7 +8,7 @@ class Nav extends React.Component {
       <nav className="navbar is-black">
       <div className="container">
       <div className="navbar-brand">
-      <a className="navbar-item" href="/">Stranger friends</a>
+      <Link to="/Login" className="navbar-item">Stranger Friends</Link>
       <span class="navbar-burger burger" data-target="navMenu">
       <span></span>
       <span></span>
