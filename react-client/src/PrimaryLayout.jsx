@@ -3,6 +3,7 @@ import { Route, Switch} from "react-router-dom";
 import $ from "jquery";
 
 import Signin from './components/Signin.js';
+import Login from './components/Login.js';
 import Home from './components/Home.jsx';
 import Chat from './components/Chat.jsx';
 import Survey from './components/Survey.jsx';
@@ -27,6 +28,7 @@ const PrimaryLayout = ({ match }) => (
     <Nav />
       <Switch>
         <Route  path={`${match.path}chat`} component={Chat} />
+        <Route  path={`${match.path}login`} component={Login} />
         <Route exact path={`${match.path}`} component={Home} />
         <Route  path={`${match.path}survey`} component={Survey} />
         <Route  path={`${match.path}profiles`} component={Profiles} />
